@@ -26,7 +26,7 @@ class ResultActivity : AppCompatActivity() {
         resultIntent.putExtra("TOTAL_PAYMENT", totalPayment)
 
         setResult(Activity.RESULT_OK, resultIntent)
-
+        finish()
 
     }
 }
