@@ -15,7 +15,7 @@ class ResultActivity : AppCompatActivity() {
         val interestRate = intent.getDoubleExtra("INTEREST_RATE", 0.0)
         val loanTerm = intent.getIntExtra("LOAN_TERM", 0)
 
-        val monthlyRate = interestRate / 12
+        val monthlyRate = interestRate / 12 / 100
         val numberOfPayments = loanTerm * 12
 
         val monthlyPayment = principal * (monthlyRate * (1+monthlyRate).pow(numberOfPayments.toDouble())) / ((1 + monthlyRate).pow(numberOfPayments.toDouble()) - 1)

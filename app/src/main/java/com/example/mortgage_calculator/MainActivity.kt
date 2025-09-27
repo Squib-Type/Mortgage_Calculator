@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
                 val totalPayment = data?.getDoubleExtra("TOTAL_PAYMENT", 0.0) ?: 0.0
 
                 binding.monthlyPaymentsResults.text = String.format("Monthly Payment: $%.2f", monthlyPayment)
-                binding.totalPaymentsResults.text = String.format("Total Payment: $%.2f", totalPayment)
+                binding.totalPaymentsResults.text = String.format("Total Payments: $%.2f", totalPayment)
             }
     }
     private lateinit var binding: ActivityMainBinding
