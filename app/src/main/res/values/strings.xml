@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Mortgage_Calculator</string>
     <string name="calculate_button">Calculate</string>
-    <string name="monthlyPaymentResults">Results will be displayed here</string>
+    <string name="monthlyPaymentResults">Results will be displayed here.</string>
     <string name="totalPaymentResults"></string>
     <string name="principal_hint">Principal Amount</string>
     <string name="interest_rate_hint">Annual Interest Rate (%)</string>
